@@ -1,0 +1,53 @@
+#AnchorPane {
+    -fx-background-color: #006600;
+}
+
+Text {
+    -fx-font-size: 14pt;
+}
+
+.mainFxmlClass {
+   /*-fx-border-color: red;*/
+}
+
+.border-blue {
+    -fx-border-color: blue;
+    -fx-border-width: 5px;
+}
+
+.hyperlink {
+    -fx-font-size: 12pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.hyperlink:hover {
+    -fx-font-size: 12pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: red;
+}
+
+.hyperlink:focused {
+    -fx-border-color: null;
+    -fx-border-style: solid;
+    -fx-border-width: 0px;
+    -fx-underline: false;
+}
+
+.gridpane {
+    -fx-border-color: black;
+    -fx-border-width: 4px;        
+}
+
+.gridpane Text {    
+    -fx-font-weight: bold;
+}
+
+.title {
+    -fx-font-family: "Freestyle Script";
+    -fx-font-size: 60pt;
+    -fx-fill: linear-gradient(from 0% 0% to 100% 100%, #00FFEE, #5AFF00);
+    -fx-font-weight: bold; 
+}
+
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+
+<!--
+
+    This is a custom component for JavaFX
+
+-->
+<fx:root type="javafx.scene.layout.AnchorPane" xmlns:fx="http://javafx.com/fxml">
+    <ImageView fx:id="imageView" fitHeight="60" fitWidth="60" pickOnBounds="true" preserveRatio="true">
+        
+    </ImageView>
+</fx:root>
+
